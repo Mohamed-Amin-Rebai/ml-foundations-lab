@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+model/*.pth
+model/*.pkl
+
+.venv/
+venv/
+
+*.zip
+
+.cache/
+
+
+# Image Dataset
+image-classification/pytorch/dataset/PetImages/

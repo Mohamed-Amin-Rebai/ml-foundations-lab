@@ -1,0 +1,30 @@
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# NLP
+transformers
+datasets
+tokenizers
+
+# Classical ML
+scikit-learn
+
+# Data
+pandas
+numpy
+
+# Visualization
+matplotlib
+
+# Images
+pillow
+
+# Rule-based Sentiment
+textblob
+vaderSentiment
+
+# Utilities
+tqdm
+joblib
