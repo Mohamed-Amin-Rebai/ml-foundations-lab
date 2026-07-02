@@ -1,13 +1,12 @@
-````markdown
 # 🧠 Pretrained BERT Sentiment Analysis
 
-This module demonstrates **sentiment analysis using a pretrained Transformer model (BERT variant)** via Hugging Face.
-
-Unlike rule-based methods, this approach leverages **deep learning and contextual understanding** to classify text sentiment.
+> This module demonstrates **sentiment analysis using a pretrained Transformer model (BERT variant)** via Hugging Face.
+>
+> Unlike rule-based methods, this approach leverages **deep learning and contextual understanding** to classify text sentiment.
 
 ---
 
-# 🎯 Goal
+## 🎯 Goal
 
 Classify input text into:
 
@@ -18,7 +17,7 @@ using a pretrained model without additional training.
 
 ---
 
-# ⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 - **PyTorch**
 - **Hugging Face Transformers**
@@ -26,11 +25,13 @@ using a pretrained model without additional training.
 
 ---
 
-# 🧠 Model Used
+## 🧠 Model Used
 
 ```text
 distilbert-base-uncased-finetuned-sst-2-english
 ```
+
+### Features
 
 - Lightweight version of BERT
 - Fine-tuned on SST-2 dataset
@@ -38,7 +39,7 @@ distilbert-base-uncased-finetuned-sst-2-english
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 pretrained-bert-model/
@@ -49,7 +50,7 @@ pretrained-bert-model/
 
 ---
 
-# ▶️ How to Run
+## ▶️ How to Run
 
 ```bash
 cd sentiment-analysis/bert/pretrained-bert-model
@@ -59,7 +60,7 @@ python main.py
 
 ---
 
-# 💡 How It Works
+## 💡 How It Works
 
 ### Pipeline
 
@@ -83,7 +84,7 @@ Prediction
 
 ---
 
-# 📊 Example
+## 📊 Example
 
 ### Input
 
@@ -100,7 +101,7 @@ Score : 0.999
 
 ---
 
-# 🔍 Strengths
+## 🔍 Strengths
 
 - ✔️ Understands context *(e.g. "not bad" → Positive)*
 - ✔️ Works well on natural language
@@ -108,7 +109,7 @@ Score : 0.999
 
 ---
 
-# ⚠️ Limitations
+## ⚠️ Limitations
 
 - Struggles with sarcasm
 - Limited to training domain *(reviews-like text)*
@@ -116,7 +117,7 @@ Score : 0.999
 
 ---
 
-# 🧠 Key Learning Outcomes
+## 📚 Key Learning Outcomes
 
 - ✔️ Understand pretrained Transformer models
 - ✔️ Learn inference pipeline with Hugging Face
@@ -124,9 +125,8 @@ Score : 0.999
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Mohamed Amine REBAI**
 
 *Software Engineering Student | AI Enthusiast*
-````

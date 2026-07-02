@@ -1,16 +1,20 @@
+# Python
 __pycache__/
 *.pyc
 
-model/*.pth
-model/*.pkl
-
-.venv/
+# Virtual Environments
 venv/
+.venv/
 
+# Models
+*.pth
+*.pkl
+
+# Archives
 *.zip
-
-.cache/
-
 
 # Image Dataset
 image-classification/pytorch/dataset/PetImages/
+
+# HuggingFace
+.cache/

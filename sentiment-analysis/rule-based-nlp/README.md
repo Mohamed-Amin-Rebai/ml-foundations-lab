@@ -1,16 +1,15 @@
-````markdown
 # 🧠 Sentiment Analysis
 
-This module implements **rule-based sentiment analysis** using:
-
-- ✅ TextBlob
-- ✅ VADER
-
-It compares both approaches on the same input to highlight differences in sentiment detection.
+> This module implements **rule-based sentiment analysis** using:
+>
+> - ✅ TextBlob
+> - ✅ VADER
+>
+> It compares both approaches on the same input to highlight differences in sentiment detection.
 
 ---
 
-# 🎯 Goal
+## 🎯 Goal
 
 Classify a given sentence into:
 
@@ -22,14 +21,14 @@ And compare results between two methods.
 
 ---
 
-# ⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 - **TextBlob** → General-purpose sentiment analysis
 - **VADER** → Optimized for social media / informal text
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 simple/
@@ -41,7 +40,7 @@ simple/
 
 ---
 
-# ▶️ How to Run
+## ▶️ How to Run
 
 ```bash
 cd sentiment-analysis/simple
@@ -51,13 +50,13 @@ python main.py
 
 ---
 
-# 💡 How It Works
+## 💡 How It Works
 
-## 🔹 TextBlob
+### 🔹 TextBlob
 
 Returns a **polarity score** between **-1** and **1**.
 
-### Interpretation
+#### Interpretation
 
 ```text
 > 0  → Positive
@@ -67,7 +66,7 @@ Returns a **polarity score** between **-1** and **1**.
 
 ---
 
-## 🔹 VADER
+### 🔹 VADER
 
 Returns:
 
@@ -90,7 +89,7 @@ otherwise → Neutral
 
 ---
 
-# 📊 Example
+## 📊 Example
 
 ### Input
 
@@ -121,7 +120,7 @@ Comparison
 
 ---
 
-# 🧠 Key Learning Outcomes
+## 📚 Key Learning Outcomes
 
 - ✔️ Understand rule-based sentiment analysis
 - ✔️ Learn polarity vs compound scores
@@ -130,7 +129,7 @@ Comparison
 
 ---
 
-# 🔍 Observations
+## 🔍 Observations
 
 ### VADER performs better on:
 
@@ -145,13 +144,11 @@ Comparison
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Mohamed Amine REBAI**
 
 *Software Engineering Student | AI Enthusiast*
-````
-
 
 <!-- 
 test :

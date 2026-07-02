@@ -1,4 +1,3 @@
-````markdown
 # 🧠 ML Foundations Lab
 
 > A collection of fundamental Machine Learning and Deep Learning projects designed to demonstrate core concepts in:
@@ -6,16 +5,18 @@
 > - Natural Language Processing (NLP)
 > - Text Classification
 > - Computer Vision
-
-This repository follows a progressive learning path:
-
-**Classical Machine Learning → Deep Learning**
-
-showcasing how different techniques solve similar real-world problems.
+>
+> This repository follows a progressive learning path:
+>
+> **Classical Machine Learning → Deep Learning**
+>
+> showcasing how different techniques solve similar real-world problems.
 
 ---
 
-# 🚀 Projects Overview
+## 🚀 Projects Overview
+
+---
 
 ## 📌 1. Sentiment Analysis
 
@@ -24,10 +25,11 @@ showcasing how different techniques solve similar real-world problems.
 - ✅ TextBlob
 - ✅ VADER
 
-### 🎯 Goal
+#### 🎯 Goal
 
-- Classify text sentiment *(Positive / Negative / Neutral)*
-- Compare rule-based approaches
+Classify text sentiment *(Positive / Negative / Neutral)* and compare rule-based approaches.
+
+#### 📚 Learning Outcomes
 
 - Lexicon-based NLP
 - Sentiment scoring
@@ -39,9 +41,11 @@ showcasing how different techniques solve similar real-world problems.
 
 Using a **Transformer-based model (BERT)** via HuggingFace.
 
-### 🎯 Goal
+#### 🎯 Goal
 
-- Achieve more accurate sentiment classification
+Achieve more accurate sentiment classification.
+
+#### 📚 Learning Outcomes
 
 - Tokenization
 - Pretrained models
@@ -49,20 +53,22 @@ Using a **Transformer-based model (BERT)** via HuggingFace.
 
 ---
 
-# 📌 2. Spam Detection (Text Classification)
+## 📌 2. Spam Detection (Text Classification)
 
 ### 🔹 Scikit-learn Approach
 
-### Models
+#### Models
 
 - ✅ Naive Bayes
 - ✅ Logistic Regression *(optional)*
 
-### Pipeline
+#### Pipeline
 
 - Text preprocessing
 - Feature extraction *(Bag of Words / TF-IDF)*
 - Model training
+
+#### 📚 Learning Outcomes
 
 - Classical ML pipeline
 - Feature engineering for NLP
@@ -77,20 +83,21 @@ Using a custom neural network with:
 - Average Pooling
 - Feedforward Neural Network
 
-### 🎯 Goal
+#### 🎯 Goal
 
 Compare classical Machine Learning with Deep Learning approaches for text classification.
 
-### Learning Outcomes
+#### 📚 Learning Outcomes
 
 - Tokenization
 - Vocabulary Creation
 - Text Numerical Encoding
 - Embedding Layers
 - Neural Network Training
+
 ---
 
-# 📌 3. Image Classification (Cats vs Dogs)
+## 📌 3. Image Classification (Cats vs Dogs)
 
 ### Framework
 
@@ -100,14 +107,14 @@ Compare classical Machine Learning with Deep Learning approaches for text classi
 
 - ✅ Transfer Learning (ResNet18)
 
-### 🎯 Goal
+#### 🎯 Goal
 
 Classify images into categories:
 
 - 🐱 Cat
 - 🐶 Dog
 
-
+#### 📚 Learning Outcomes
 
 - CNN fundamentals
 - Image preprocessing
@@ -115,12 +122,12 @@ Classify images into categories:
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 .
 ├── sentiment-analysis/
-    ├── pre-trained-bert-model/
+│   ├── pre-trained-bert-model/
 │   └── rule-based-nlp/
 │
 ├── spam-detection/
@@ -131,14 +138,15 @@ Classify images into categories:
 │   └── pytorch/
 │
 └── requirements.txt
-````
+```
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
 ```bash
 git clone https://github.com/Mohamed-Amin-Rebai/ml-foundations-lab.git
+
 cd ml-foundations-lab
 
 pip install -r requirements.txt
@@ -146,7 +154,7 @@ pip install -r requirements.txt
 
 ---
 
-# 📦 Requirements
+## 📦 Requirements
 
 Main libraries:
 
@@ -164,7 +172,7 @@ vaderSentiment
 
 ---
 
-# ▶️ Usage
+## ▶️ Usage
 
 Each module is independent.
 
@@ -178,60 +186,50 @@ python main.py
 
 ---
 
-# 📊 Results
+## 📊 Results
 
 | Project | Accuracy |
-|----------|----------|
-| Spam Detection (Scikit-Learn) | 96.86% |
-| Spam Detection (PyTorch) | 97.22% |
-| Cats vs Dogs (ResNet18) | 95.72% |
-
-
----
-
-
-# 📊 Key Learning Outcomes
-
-✔️ Understand the difference between:
-
-* Rule-based NLP
-* Machine Learning
-* Deep Learning
-
-✔️ Learn text preprocessing and vectorization
-
-✔️ Build and train neural networks using PyTorch
-
-✔️ Apply transfer learning for NLP and Computer Vision
-
-✔️ Compare model performance across approaches
+| :------- | -------: |
+| Spam Detection (Scikit-Learn) | **96.86%** |
+| Spam Detection (PyTorch) | **97.22%** |
+| Cats vs Dogs (ResNet18) | **95.72%** |
 
 ---
 
-# 🧠 Why this project?
+## 📚 Key Learning Outcomes
+
+- ✔️ Understand the difference between:
+  - Rule-based NLP
+  - Machine Learning
+  - Deep Learning
+- ✔️ Learn text preprocessing and vectorization
+- ✔️ Build and train neural networks using PyTorch
+- ✔️ Apply transfer learning for NLP and Computer Vision
+- ✔️ Compare model performance across approaches
+
+---
+
+## 🧠 Why this project?
 
 This repository is designed to:
 
-* Build strong ML foundations
-* Demonstrate practical understanding of ML pipelines
-* Showcase real-world AI problem solving
+- Build strong ML foundations
+- Demonstrate practical understanding of ML pipelines
+- Showcase real-world AI problem solving
 
 ---
 
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 
-* 📈 Add evaluation dashboard
-* ⚡ FastAPI API
-* 🤖 Model serving
-* 🌐 Deploy mini apps
+- 📈 Add evaluation dashboard
+- ⚡ FastAPI API
+- 🤖 Model serving
+- 🌐 Deploy mini apps
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Mohamed Amine REBAI**
 
 *Software Engineering Student | AI Enthusiast*
-
-```
-```
