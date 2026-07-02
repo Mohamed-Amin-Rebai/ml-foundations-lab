@@ -43,7 +43,7 @@ simple/
 ## ▶️ How to Run
 
 ```bash
-cd sentiment-analysis/simple
+cd sentiment-analysis/rule-based-nlp
 
 python main.py
 ```

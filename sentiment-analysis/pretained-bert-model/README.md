@@ -53,7 +53,7 @@ pretrained-bert-model/
 ## ▶️ How to Run
 
 ```bash
-cd sentiment-analysis/bert/pretrained-bert-model
+cd sentiment-analysis/pretrained-bert-model
 
 python main.py
 ```
