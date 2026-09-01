@@ -122,6 +122,33 @@ Classify images into categories:
 
 ---
 
+## 📌 4. Machine Learning Techniques
+
+A collection of classical Machine Learning projects covering regression, classification, clustering, and dimensionality reduction.
+
+### Topics Covered
+
+- ✅ Simple Linear Regression
+- ✅ Multiple Linear Regression
+- ✅ Diabetes Classification
+- ✅ Iris Classification
+- ✅ Brain Cancer Classification
+- ✅ K-Means Clustering
+
+#### 📚 Learning Outcomes
+
+- Data Cleaning
+- Missing Value Handling
+- Feature Engineering
+- Feature Scaling
+- Classification Algorithms
+- Regression Analysis
+- Clustering
+- PCA (Dimensionality Reduction)
+- Model Evaluation
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -136,6 +163,14 @@ Classify images into categories:
 │
 ├── image-classification/
 │   └── pytorch/
+│
+├── learning-techniques/
+│   ├── linear_regression.ipynb
+│   ├── classification.ipynb
+│   ├── classification_iris.ipynb
+│   ├── brain_cancer.ipynb
+│   └── clustering.ipynb
+│
 │
 └── requirements.txt
 ```
@@ -196,6 +231,20 @@ python main.py
 
 ---
 
+## 🛠️ Techniques Covered
+
+| Category | Techniques |
+|-----------|-----------|
+| Regression | Linear Regression, Multiple Linear Regression |
+| Classification | Logistic Regression, KNN, SVM, Decision Trees, Random Forests, Neural Networks |
+| Clustering | K-Means |
+| NLP | TextBlob, VADER, TF-IDF, BERT |
+| Computer Vision | ResNet18 Transfer Learning |
+| Deep Learning | PyTorch Neural Networks |
+
+---
+
+
 ## 📚 Key Learning Outcomes
 
 - ✔️ Understand the difference between:
@@ -206,6 +255,8 @@ python main.py
 - ✔️ Build and train neural networks using PyTorch
 - ✔️ Apply transfer learning for NLP and Computer Vision
 - ✔️ Compare model performance across approaches
+- ✔️ Apply Regression, Classification, and Clustering techniques
+- ✔️ Understand supervised and unsupervised learning workflows
 
 ---
 

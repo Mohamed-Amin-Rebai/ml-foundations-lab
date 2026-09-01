@@ -18,3 +18,5 @@ image-classification/pytorch/dataset/PetImages/
 
 # HuggingFace
 .cache/
+
+*.csv

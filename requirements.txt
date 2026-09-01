@@ -17,6 +17,7 @@ numpy
 
 # Visualization
 matplotlib
+seaborn
 
 # Images
 pillow
